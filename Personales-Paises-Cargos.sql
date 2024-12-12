@@ -1,0 +1,58 @@
+USE [POOII]
+GO
+/****** Object:  Table [dbo].[Cargos]    Script Date: 08/12/2024 17:46:31 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Cargos](
+	[idCargo] [int] IDENTITY(1,1) NOT NULL,
+	[Detalle] [nchar](255) NULL,
+ CONSTRAINT [PK_Cargos] PRIMARY KEY CLUSTERED 
+(
+	[idCargo] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Paises]    Script Date: 08/12/2024 17:46:31 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Paises](
+	[idPais] [int] IDENTITY(1,1) NOT NULL,
+	[detalle] [nchar](255) NOT NULL,
+ CONSTRAINT [PK_Paises] PRIMARY KEY CLUSTERED 
+(
+	[idPais] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Personales]    Script Date: 08/12/2024 17:46:31 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Personales](
+	[idPersonal] [int] IDENTITY(1,1) NOT NULL,
+	[nombres] [nchar](255) NULL,
+	[idCargo] [int] NULL,
+	[Sueldo] [decimal](18, 2) NULL,
+	[idPais] [int] NULL,
+	[apellidos] [nchar](255) NULL,
+ CONSTRAINT [PK_Personales] PRIMARY KEY CLUSTERED 
+(
+	[idPersonal] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Personales]  WITH CHECK ADD  CONSTRAINT [FK_Personales_Cargos] FOREIGN KEY([idCargo])
+REFERENCES [dbo].[Cargos] ([idCargo])
+GO
+ALTER TABLE [dbo].[Personales] CHECK CONSTRAINT [FK_Personales_Cargos]
+GO
+ALTER TABLE [dbo].[Personales]  WITH CHECK ADD  CONSTRAINT [FK_Personales_Paises] FOREIGN KEY([idPais])
+REFERENCES [dbo].[Paises] ([idPais])
+GO
+ALTER TABLE [dbo].[Personales] CHECK CONSTRAINT [FK_Personales_Paises]
+GO

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "j39hbvs69JRkFdnZPaqCnkclesaYNrjw4OIn3Lw6mK+dRen9aS9nsHcIQCa1P8UBC5kPFqtxL5bpUs5G4qKFig==",
+  "success": true,
+  "projectFilePath": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\PROGRAMACION ORIENTADA A OBJETOS II\\Visual Studio\\01_Primera_Vez\\01_Primera_Vez.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ricardo Gonzalez\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Ricardo Gonzalez\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Ricardo Gonzalez\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Ricardo Gonzalez\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Ricardo Gonzalez\\.nuget\\packages\\system.data.sqlclient\\4.9.0\\system.data.sqlclient.4.9.0.nupkg.sha512"
+  ],
+  "logs": []
+}
