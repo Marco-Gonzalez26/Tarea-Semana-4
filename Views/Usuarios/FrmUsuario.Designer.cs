@@ -89,9 +89,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(39)))));
             this.label3.Location = new System.Drawing.Point(42, 169);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(145, 21);
+            this.label3.Size = new System.Drawing.Size(151, 21);
             this.label3.TabIndex = 13;
             this.label3.Text = "Nombre de usuario";
             // 
@@ -105,9 +107,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(39)))));
             this.label2.Location = new System.Drawing.Point(42, 100);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(138, 21);
+            this.label2.Size = new System.Drawing.Size(147, 21);
             this.label2.TabIndex = 11;
             this.label2.Text = "Correo Electronico";
             // 
@@ -121,9 +125,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(39)))));
             this.label1.Location = new System.Drawing.Point(42, 33);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 21);
+            this.label1.Size = new System.Drawing.Size(71, 21);
             this.label1.TabIndex = 9;
             this.label1.Text = "Nombre";
             // 

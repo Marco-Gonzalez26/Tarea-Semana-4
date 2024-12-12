@@ -10,9 +10,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Models\Conexion.cs~RF1aaa62fe.TMP" />
     <None Remove="Models\dto_Personal.cs~RF14ee5a09.TMP" />
     <None Remove="Views\CUPersonal.cs~RF1f4c0322.TMP" />
     <None Remove="Views\CUPersonal.cs~RF1f4dadc5.TMP" />
+    <None Remove="Views\Usuarios\FrmUsuario.cs~RF1aa653a0.TMP" />
   </ItemGroup>
 
   <ItemGroup>

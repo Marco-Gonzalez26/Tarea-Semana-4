@@ -36,10 +36,10 @@
             this.txtBuscarUsuario = new System.Windows.Forms.TextBox();
             this.panelBottom = new System.Windows.Forms.Panel();
             this.btnNuevoUsuario = new System.Windows.Forms.Button();
-            this.dataUsuarios = new System.Windows.Forms.DataGridView();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.panelTop.SuspendLayout();
             this.panelBottom.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataUsuarios)).BeginInit();
             this.SuspendLayout();
             // 
             // panelTop
@@ -86,6 +86,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(39)))));
             this.label1.Location = new System.Drawing.Point(29, 8);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(132, 21);
@@ -104,6 +105,7 @@
             // panelBottom
             // 
             this.panelBottom.BackColor = System.Drawing.Color.White;
+            this.panelBottom.Controls.Add(this.label2);
             this.panelBottom.Controls.Add(this.btnNuevoUsuario);
             this.panelBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelBottom.Location = new System.Drawing.Point(0, 433);
@@ -128,22 +130,38 @@
             this.btnNuevoUsuario.UseVisualStyleBackColor = false;
             this.btnNuevoUsuario.Click += new System.EventHandler(this.btnNuevoUsuario_Click);
             // 
-            // dataUsuarios
+            // listBox1
             // 
-            this.dataUsuarios.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dataUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataUsuarios.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataUsuarios.Location = new System.Drawing.Point(0, 80);
-            this.dataUsuarios.Name = "dataUsuarios";
-            this.dataUsuarios.RowTemplate.Height = 25;
-            this.dataUsuarios.Size = new System.Drawing.Size(547, 353);
-            this.dataUsuarios.TabIndex = 2;
+            this.listBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.listBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(39)))));
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 21;
+            this.listBox1.Items.AddRange(new object[] {
+            "Usuario 1",
+            "Usuario 2 ",
+            "Usuario 3"});
+            this.listBox1.Location = new System.Drawing.Point(0, 80);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(547, 353);
+            this.listBox1.TabIndex = 2;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(39)))));
+            this.label2.Location = new System.Drawing.Point(3, 16);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(87, 21);
+            this.label2.TabIndex = 5;
+            this.label2.Text = " 3 usuarios";
             // 
             // CU_Usuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.dataUsuarios);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.panelBottom);
             this.Controls.Add(this.panelTop);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -154,7 +172,7 @@
             this.panelTop.ResumeLayout(false);
             this.panelTop.PerformLayout();
             this.panelBottom.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataUsuarios)).EndInit();
+            this.panelBottom.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -163,11 +181,12 @@
 
         private Panel panelTop;
         private Panel panelBottom;
-        private DataGridView dataUsuarios;
         private Button btnBuscarUsuario;
         private Label label1;
         private TextBox txtBuscarUsuario;
         private Panel panel1;
         private Button btnNuevoUsuario;
+        private ListBox listBox1;
+        private Label label2;
     }
 }
