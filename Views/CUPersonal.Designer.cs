@@ -28,107 +28,108 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.btnNuevoPersonal = new System.Windows.Forms.Button();
-            this.btnBuscar = new System.Windows.Forms.Button();
-            this.txtBuscarUsuario = new System.Windows.Forms.TextBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.dgvUsuarios = new System.Windows.Forms.DataGridView();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).BeginInit();
-            this.SuspendLayout();
+            panel1 = new Panel();
+            btnNuevoPersonal = new Button();
+            btnBuscar = new Button();
+            txtBuscarUsuario = new TextBox();
+            panel2 = new Panel();
+            dgvUsuarios = new DataGridView();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvUsuarios).BeginInit();
+            SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.btnNuevoPersonal);
-            this.panel1.Controls.Add(this.btnBuscar);
-            this.panel1.Controls.Add(this.txtBuscarUsuario);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(532, 71);
-            this.panel1.TabIndex = 0;
+            panel1.BackColor = Color.White;
+            panel1.Controls.Add(btnNuevoPersonal);
+            panel1.Controls.Add(btnBuscar);
+            panel1.Controls.Add(txtBuscarUsuario);
+            panel1.Dock = DockStyle.Top;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(532, 71);
+            panel1.TabIndex = 0;
             // 
             // btnNuevoPersonal
             // 
-            this.btnNuevoPersonal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(154)))), ((int)(((byte)(162)))));
-            this.btnNuevoPersonal.FlatAppearance.BorderSize = 0;
-            this.btnNuevoPersonal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNuevoPersonal.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnNuevoPersonal.ForeColor = System.Drawing.Color.White;
-            this.btnNuevoPersonal.Location = new System.Drawing.Point(369, 21);
-            this.btnNuevoPersonal.Name = "btnNuevoPersonal";
-            this.btnNuevoPersonal.Size = new System.Drawing.Size(144, 29);
-            this.btnNuevoPersonal.TabIndex = 2;
-            this.btnNuevoPersonal.Text = "Nuevo Personal";
-            this.btnNuevoPersonal.UseVisualStyleBackColor = false;
-            this.btnNuevoPersonal.Click += new System.EventHandler(this.btnNuevoPersonal_Click);
+            btnNuevoPersonal.BackColor = Color.FromArgb(1, 154, 162);
+            btnNuevoPersonal.FlatAppearance.BorderSize = 0;
+            btnNuevoPersonal.FlatStyle = FlatStyle.Flat;
+            btnNuevoPersonal.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnNuevoPersonal.ForeColor = Color.White;
+            btnNuevoPersonal.Location = new Point(369, 21);
+            btnNuevoPersonal.Name = "btnNuevoPersonal";
+            btnNuevoPersonal.Size = new Size(144, 29);
+            btnNuevoPersonal.TabIndex = 2;
+            btnNuevoPersonal.Text = "Nuevo Personal";
+            btnNuevoPersonal.UseVisualStyleBackColor = false;
+            btnNuevoPersonal.Click += btnNuevoPersonal_Click;
             // 
             // btnBuscar
             // 
-            this.btnBuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(152)))));
-            this.btnBuscar.FlatAppearance.BorderSize = 0;
-            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBuscar.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnBuscar.ForeColor = System.Drawing.Color.White;
-            this.btnBuscar.Location = new System.Drawing.Point(262, 21);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(91, 29);
-            this.btnBuscar.TabIndex = 1;
-            this.btnBuscar.Text = "Buscar";
-            this.btnBuscar.UseVisualStyleBackColor = false;
+            btnBuscar.BackColor = Color.FromArgb(0, 0, 152);
+            btnBuscar.FlatAppearance.BorderSize = 0;
+            btnBuscar.FlatStyle = FlatStyle.Flat;
+            btnBuscar.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnBuscar.ForeColor = Color.White;
+            btnBuscar.Location = new Point(262, 21);
+            btnBuscar.Name = "btnBuscar";
+            btnBuscar.Size = new Size(91, 29);
+            btnBuscar.TabIndex = 1;
+            btnBuscar.Text = "Buscar";
+            btnBuscar.UseVisualStyleBackColor = false;
+            btnBuscar.Click += btnBuscar_Click;
             // 
             // txtBuscarUsuario
             // 
-            this.txtBuscarUsuario.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txtBuscarUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtBuscarUsuario.Location = new System.Drawing.Point(13, 21);
-            this.txtBuscarUsuario.Name = "txtBuscarUsuario";
-            this.txtBuscarUsuario.Size = new System.Drawing.Size(243, 29);
-            this.txtBuscarUsuario.TabIndex = 0;
+            txtBuscarUsuario.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            txtBuscarUsuario.ForeColor = Color.FromArgb(64, 64, 64);
+            txtBuscarUsuario.Location = new Point(13, 21);
+            txtBuscarUsuario.Name = "txtBuscarUsuario";
+            txtBuscarUsuario.Size = new Size(243, 29);
+            txtBuscarUsuario.TabIndex = 0;
+            txtBuscarUsuario.TextChanged += txtBuscarUsuario_TextChanged;
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 452);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(532, 48);
-            this.panel2.TabIndex = 1;
+            panel2.BackColor = Color.White;
+            panel2.Dock = DockStyle.Bottom;
+            panel2.Location = new Point(0, 452);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(532, 48);
+            panel2.TabIndex = 1;
             // 
             // dgvUsuarios
             // 
-            this.dgvUsuarios.BackgroundColor = System.Drawing.Color.White;
-            this.dgvUsuarios.ColumnHeadersHeight = 50;
-            this.dgvUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dgvUsuarios.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvUsuarios.Location = new System.Drawing.Point(0, 71);
-            this.dgvUsuarios.Name = "dgvUsuarios";
-            this.dgvUsuarios.RowHeadersWidth = 20;
-            this.dgvUsuarios.RowTemplate.Height = 25;
-            this.dgvUsuarios.Size = new System.Drawing.Size(532, 381);
-            this.dgvUsuarios.TabIndex = 2;
-            this.dgvUsuarios.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvUsuarios_CellClick);
-            this.dgvUsuarios.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvUsuarios_CellContentClick);
-            this.dgvUsuarios.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.dgvUsuarios_DataBindingComplete);
+            dgvUsuarios.BackgroundColor = Color.White;
+            dgvUsuarios.ColumnHeadersHeight = 50;
+            dgvUsuarios.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            dgvUsuarios.Dock = DockStyle.Fill;
+            dgvUsuarios.Location = new Point(0, 71);
+            dgvUsuarios.Name = "dgvUsuarios";
+            dgvUsuarios.RowHeadersWidth = 20;
+            dgvUsuarios.RowTemplate.Height = 25;
+            dgvUsuarios.Size = new Size(532, 381);
+            dgvUsuarios.TabIndex = 2;
+            dgvUsuarios.CellClick += dgvUsuarios_CellClick;
+            dgvUsuarios.CellContentClick += dgvUsuarios_CellContentClick;
+            dgvUsuarios.DataBindingComplete += dgvUsuarios_DataBindingComplete;
             // 
             // CUPersonal
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.White;
-            this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Controls.Add(this.dgvUsuarios);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
-            this.Name = "CUPersonal";
-            this.Size = new System.Drawing.Size(532, 500);
-            this.Load += new System.EventHandler(this.CUPersonal_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).EndInit();
-            this.ResumeLayout(false);
-
+            AutoScaleMode = AutoScaleMode.None;
+            BackColor = Color.White;
+            BorderStyle = BorderStyle.FixedSingle;
+            Controls.Add(dgvUsuarios);
+            Controls.Add(panel2);
+            Controls.Add(panel1);
+            Name = "CUPersonal";
+            Size = new Size(532, 500);
+            Load += CUPersonal_Load;
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvUsuarios).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion

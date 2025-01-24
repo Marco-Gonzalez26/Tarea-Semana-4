@@ -29,230 +29,229 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuPrincipal));
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnRespaldo = new System.Windows.Forms.Button();
-            this.btnRestaurarBD = new System.Windows.Forms.Button();
-            this.btnPersonal = new System.Windows.Forms.Button();
-            this.btnAsistencia = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.btnUsuarios = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.Panel_General = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel1.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.Panel_General.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.SuspendLayout();
+            panel1 = new Panel();
+            label1 = new Label();
+            pictureBox1 = new PictureBox();
+            btnRespaldo = new Button();
+            btnRestaurarBD = new Button();
+            btnPersonal = new Button();
+            btnAsistencia = new Button();
+            panel3 = new Panel();
+            btnUsuarios = new Button();
+            panel2 = new Panel();
+            Panel_General = new Panel();
+            label2 = new Label();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel3.SuspendLayout();
+            panel2.SuspendLayout();
+            Panel_General.SuspendLayout();
+            SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.btnRespaldo);
-            this.panel1.Controls.Add(this.btnRestaurarBD);
-            this.panel1.Controls.Add(this.btnPersonal);
-            this.panel1.Controls.Add(this.btnAsistencia);
-            this.panel1.Controls.Add(this.panel3);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(0, 8, 0, 8);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(178, 519);
-            this.panel1.TabIndex = 0;
+            panel1.BackColor = Color.White;
+            panel1.Controls.Add(label1);
+            panel1.Controls.Add(pictureBox1);
+            panel1.Controls.Add(btnRespaldo);
+            panel1.Controls.Add(btnRestaurarBD);
+            panel1.Controls.Add(btnPersonal);
+            panel1.Controls.Add(btnAsistencia);
+            panel1.Controls.Add(panel3);
+            panel1.Dock = DockStyle.Left;
+            panel1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(0, 8, 0, 8);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(178, 519);
+            panel1.TabIndex = 0;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(39)))));
-            this.label1.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label1.Location = new System.Drawing.Point(0, 434);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(167, 21);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Sistema de Asistencia";
-            // 
-            // btnRespaldo
-            // 
-            this.btnRespaldo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(152)))));
-            this.btnRespaldo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnRespaldo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRespaldo.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnRespaldo.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnRespaldo.Image = ((System.Drawing.Image)(resources.GetObject("btnRespaldo.Image")));
-            this.btnRespaldo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRespaldo.Location = new System.Drawing.Point(0, 322);
-            this.btnRespaldo.Margin = new System.Windows.Forms.Padding(0, 8, 0, 8);
-            this.btnRespaldo.Name = "btnRespaldo";
-            this.btnRespaldo.Padding = new System.Windows.Forms.Padding(16, 0, 16, 0);
-            this.btnRespaldo.Size = new System.Drawing.Size(178, 69);
-            this.btnRespaldo.TabIndex = 4;
-            this.btnRespaldo.Text = "Respaldo";
-            this.btnRespaldo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnRespaldo.UseVisualStyleBackColor = false;
-            this.btnRespaldo.Click += new System.EventHandler(this.btnRespaldo_Click);
-            // 
-            // btnRestaurarBD
-            // 
-            this.btnRestaurarBD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(152)))));
-            this.btnRestaurarBD.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnRestaurarBD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRestaurarBD.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnRestaurarBD.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnRestaurarBD.Image = ((System.Drawing.Image)(resources.GetObject("btnRestaurarBD.Image")));
-            this.btnRestaurarBD.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRestaurarBD.Location = new System.Drawing.Point(0, 254);
-            this.btnRestaurarBD.Margin = new System.Windows.Forms.Padding(0, 8, 0, 8);
-            this.btnRestaurarBD.Name = "btnRestaurarBD";
-            this.btnRestaurarBD.Padding = new System.Windows.Forms.Padding(16, 0, 16, 0);
-            this.btnRestaurarBD.Size = new System.Drawing.Size(178, 68);
-            this.btnRestaurarBD.TabIndex = 3;
-            this.btnRestaurarBD.Text = "Restaurar BD";
-            this.btnRestaurarBD.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnRestaurarBD.UseVisualStyleBackColor = false;
-            this.btnRestaurarBD.Click += new System.EventHandler(this.btnRestaurarBD_Click);
-            // 
-            // btnPersonal
-            // 
-            this.btnPersonal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(152)))));
-            this.btnPersonal.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnPersonal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPersonal.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnPersonal.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnPersonal.Image = global::_01_Primera_Vez.Properties.Resources.trabajo_en_equipo;
-            this.btnPersonal.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPersonal.Location = new System.Drawing.Point(0, 186);
-            this.btnPersonal.Margin = new System.Windows.Forms.Padding(0, 8, 0, 8);
-            this.btnPersonal.Name = "btnPersonal";
-            this.btnPersonal.Padding = new System.Windows.Forms.Padding(16, 0, 16, 0);
-            this.btnPersonal.Size = new System.Drawing.Size(178, 68);
-            this.btnPersonal.TabIndex = 2;
-            this.btnPersonal.Text = "Personal";
-            this.btnPersonal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnPersonal.UseVisualStyleBackColor = false;
-            this.btnPersonal.Click += new System.EventHandler(this.btnPersonal_Click);
-            // 
-            // btnAsistencia
-            // 
-            this.btnAsistencia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(152)))));
-            this.btnAsistencia.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnAsistencia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAsistencia.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnAsistencia.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnAsistencia.Image = global::_01_Primera_Vez.Properties.Resources.lista_de_verificacion;
-            this.btnAsistencia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAsistencia.Location = new System.Drawing.Point(0, 118);
-            this.btnAsistencia.Margin = new System.Windows.Forms.Padding(0, 8, 0, 8);
-            this.btnAsistencia.Name = "btnAsistencia";
-            this.btnAsistencia.Padding = new System.Windows.Forms.Padding(16, 0, 16, 0);
-            this.btnAsistencia.Size = new System.Drawing.Size(178, 68);
-            this.btnAsistencia.TabIndex = 1;
-            this.btnAsistencia.Text = "Asistencia";
-            this.btnAsistencia.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAsistencia.UseVisualStyleBackColor = false;
-            this.btnAsistencia.Click += new System.EventHandler(this.btnAsistencia_Click);
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.Controls.Add(this.btnUsuarios);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(0, 8, 0, 8);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(178, 118);
-            this.panel3.TabIndex = 0;
-            // 
-            // btnUsuarios
-            // 
-            this.btnUsuarios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(152)))));
-            this.btnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUsuarios.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnUsuarios.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnUsuarios.Image = ((System.Drawing.Image)(resources.GetObject("btnUsuarios.Image")));
-            this.btnUsuarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUsuarios.Location = new System.Drawing.Point(0, 50);
-            this.btnUsuarios.Margin = new System.Windows.Forms.Padding(0, 8, 0, 8);
-            this.btnUsuarios.Name = "btnUsuarios";
-            this.btnUsuarios.Padding = new System.Windows.Forms.Padding(16, 0, 16, 0);
-            this.btnUsuarios.Size = new System.Drawing.Size(178, 68);
-            this.btnUsuarios.TabIndex = 7;
-            this.btnUsuarios.Text = "Usuarios";
-            this.btnUsuarios.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnUsuarios.UseVisualStyleBackColor = false;
-            this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(247)))), ((int)(((byte)(166)))));
-            this.panel2.Controls.Add(this.Panel_General);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.panel2.Location = new System.Drawing.Point(178, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(0, 8, 0, 8);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(547, 519);
-            this.panel2.TabIndex = 1;
-            // 
-            // Panel_General
-            // 
-            this.Panel_General.BackColor = System.Drawing.Color.White;
-            this.Panel_General.Controls.Add(this.label2);
-            this.Panel_General.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Panel_General.Location = new System.Drawing.Point(0, 0);
-            this.Panel_General.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Panel_General.Name = "Panel_General";
-            this.Panel_General.Size = new System.Drawing.Size(547, 519);
-            this.Panel_General.TabIndex = 0;
-            // 
-            // label2
-            // 
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(39)))));
-            this.label2.Location = new System.Drawing.Point(82, 201);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(368, 69);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Bienvenido/a al sistema de control de asistencia";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            label1.AutoSize = true;
+            label1.Dock = DockStyle.Bottom;
+            label1.ForeColor = Color.FromArgb(0, 0, 39);
+            label1.ImageAlign = ContentAlignment.TopRight;
+            label1.Location = new Point(0, 434);
+            label1.Name = "label1";
+            label1.Size = new Size(167, 21);
+            label1.TabIndex = 6;
+            label1.Text = "Sistema de Asistencia";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pictureBox1.Image = global::_01_Primera_Vez.Properties.Resources.sistemas;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 455);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(178, 64);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
+            pictureBox1.Dock = DockStyle.Bottom;
+            pictureBox1.Image = Properties.Resources.sistemas;
+            pictureBox1.Location = new Point(0, 455);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(178, 64);
+            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox1.TabIndex = 5;
+            pictureBox1.TabStop = false;
+            // 
+            // btnRespaldo
+            // 
+            btnRespaldo.BackColor = Color.FromArgb(0, 0, 152);
+            btnRespaldo.Dock = DockStyle.Top;
+            btnRespaldo.FlatStyle = FlatStyle.Flat;
+            btnRespaldo.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnRespaldo.ForeColor = SystemColors.Control;
+            btnRespaldo.Image = (Image)resources.GetObject("btnRespaldo.Image");
+            btnRespaldo.ImageAlign = ContentAlignment.MiddleLeft;
+            btnRespaldo.Location = new Point(0, 322);
+            btnRespaldo.Margin = new Padding(0, 8, 0, 8);
+            btnRespaldo.Name = "btnRespaldo";
+            btnRespaldo.Padding = new Padding(16, 0, 16, 0);
+            btnRespaldo.Size = new Size(178, 69);
+            btnRespaldo.TabIndex = 4;
+            btnRespaldo.Text = "Respaldo";
+            btnRespaldo.TextAlign = ContentAlignment.MiddleRight;
+            btnRespaldo.UseVisualStyleBackColor = false;
+            btnRespaldo.Click += btnRespaldo_Click;
+            // 
+            // btnRestaurarBD
+            // 
+            btnRestaurarBD.BackColor = Color.FromArgb(0, 0, 152);
+            btnRestaurarBD.Dock = DockStyle.Top;
+            btnRestaurarBD.FlatStyle = FlatStyle.Flat;
+            btnRestaurarBD.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnRestaurarBD.ForeColor = SystemColors.Control;
+            btnRestaurarBD.Image = (Image)resources.GetObject("btnRestaurarBD.Image");
+            btnRestaurarBD.ImageAlign = ContentAlignment.MiddleLeft;
+            btnRestaurarBD.Location = new Point(0, 254);
+            btnRestaurarBD.Margin = new Padding(0, 8, 0, 8);
+            btnRestaurarBD.Name = "btnRestaurarBD";
+            btnRestaurarBD.Padding = new Padding(16, 0, 16, 0);
+            btnRestaurarBD.Size = new Size(178, 68);
+            btnRestaurarBD.TabIndex = 3;
+            btnRestaurarBD.Text = "Restaurar BD";
+            btnRestaurarBD.TextAlign = ContentAlignment.MiddleRight;
+            btnRestaurarBD.UseVisualStyleBackColor = false;
+            btnRestaurarBD.Click += btnRestaurarBD_Click;
+            // 
+            // btnPersonal
+            // 
+            btnPersonal.BackColor = Color.FromArgb(0, 0, 152);
+            btnPersonal.Dock = DockStyle.Top;
+            btnPersonal.FlatStyle = FlatStyle.Flat;
+            btnPersonal.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnPersonal.ForeColor = SystemColors.Control;
+            btnPersonal.Image = Properties.Resources.trabajo_en_equipo;
+            btnPersonal.ImageAlign = ContentAlignment.MiddleLeft;
+            btnPersonal.Location = new Point(0, 186);
+            btnPersonal.Margin = new Padding(0, 8, 0, 8);
+            btnPersonal.Name = "btnPersonal";
+            btnPersonal.Padding = new Padding(16, 0, 16, 0);
+            btnPersonal.Size = new Size(178, 68);
+            btnPersonal.TabIndex = 2;
+            btnPersonal.Text = "Personal";
+            btnPersonal.TextAlign = ContentAlignment.MiddleRight;
+            btnPersonal.UseVisualStyleBackColor = false;
+            btnPersonal.Click += btnPersonal_Click;
+            // 
+            // btnAsistencia
+            // 
+            btnAsistencia.BackColor = Color.FromArgb(0, 0, 152);
+            btnAsistencia.Dock = DockStyle.Top;
+            btnAsistencia.FlatStyle = FlatStyle.Flat;
+            btnAsistencia.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnAsistencia.ForeColor = SystemColors.Control;
+            btnAsistencia.Image = Properties.Resources.lista_de_verificacion;
+            btnAsistencia.ImageAlign = ContentAlignment.MiddleLeft;
+            btnAsistencia.Location = new Point(0, 118);
+            btnAsistencia.Margin = new Padding(0, 8, 0, 8);
+            btnAsistencia.Name = "btnAsistencia";
+            btnAsistencia.Padding = new Padding(16, 0, 16, 0);
+            btnAsistencia.Size = new Size(178, 68);
+            btnAsistencia.TabIndex = 1;
+            btnAsistencia.Text = "Asistencia";
+            btnAsistencia.TextAlign = ContentAlignment.MiddleRight;
+            btnAsistencia.UseVisualStyleBackColor = false;
+            btnAsistencia.Click += btnAsistencia_Click;
+            // 
+            // panel3
+            // 
+            panel3.BackColor = Color.White;
+            panel3.Controls.Add(btnUsuarios);
+            panel3.Dock = DockStyle.Top;
+            panel3.Location = new Point(0, 0);
+            panel3.Margin = new Padding(0, 8, 0, 8);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(178, 118);
+            panel3.TabIndex = 0;
+            // 
+            // btnUsuarios
+            // 
+            btnUsuarios.BackColor = Color.FromArgb(0, 0, 152);
+            btnUsuarios.FlatStyle = FlatStyle.Flat;
+            btnUsuarios.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnUsuarios.ForeColor = SystemColors.Control;
+            btnUsuarios.Image = (Image)resources.GetObject("btnUsuarios.Image");
+            btnUsuarios.ImageAlign = ContentAlignment.MiddleLeft;
+            btnUsuarios.Location = new Point(0, 50);
+            btnUsuarios.Margin = new Padding(0, 8, 0, 8);
+            btnUsuarios.Name = "btnUsuarios";
+            btnUsuarios.Padding = new Padding(16, 0, 16, 0);
+            btnUsuarios.Size = new Size(178, 68);
+            btnUsuarios.TabIndex = 7;
+            btnUsuarios.Text = "Usuarios";
+            btnUsuarios.TextAlign = ContentAlignment.MiddleRight;
+            btnUsuarios.UseVisualStyleBackColor = false;
+            btnUsuarios.Click += btnUsuarios_Click;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.FromArgb(218, 247, 166);
+            panel2.Controls.Add(Panel_General);
+            panel2.Dock = DockStyle.Fill;
+            panel2.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            panel2.Location = new Point(178, 0);
+            panel2.Margin = new Padding(0, 8, 0, 8);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(547, 519);
+            panel2.TabIndex = 1;
+            // 
+            // Panel_General
+            // 
+            Panel_General.BackColor = Color.White;
+            Panel_General.Controls.Add(label2);
+            Panel_General.Dock = DockStyle.Fill;
+            Panel_General.Location = new Point(0, 0);
+            Panel_General.Margin = new Padding(3, 2, 3, 2);
+            Panel_General.Name = "Panel_General";
+            Panel_General.Size = new Size(547, 519);
+            Panel_General.TabIndex = 0;
+            // 
+            // label2
+            // 
+            label2.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = Color.FromArgb(0, 0, 39);
+            label2.Location = new Point(82, 201);
+            label2.Name = "label2";
+            label2.Size = new Size(368, 69);
+            label2.TabIndex = 0;
+            label2.Text = "Bienvenido/a al sistema de control de asistencia";
+            label2.Click += label2_Click;
             // 
             // MenuPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(725, 519);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
-            this.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Margin = new System.Windows.Forms.Padding(0, 8, 0, 8);
-            this.Name = "MenuPrincipal";
-            this.Text = "Menu Principal";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.Panel_General.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(11F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(725, 519);
+            Controls.Add(panel2);
+            Controls.Add(panel1);
+            Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            Margin = new Padding(0, 8, 0, 8);
+            Name = "MenuPrincipal";
+            Text = "Menu Principal";
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel3.ResumeLayout(false);
+            panel2.ResumeLayout(false);
+            Panel_General.ResumeLayout(false);
+            ResumeLayout(false);
         }
 
         #endregion

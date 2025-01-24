@@ -12,12 +12,17 @@
   <ItemGroup>
     <None Remove="Models\Conexion.cs~RF1aaa62fe.TMP" />
     <None Remove="Models\dto_Personal.cs~RF14ee5a09.TMP" />
+    <None Remove="Models\dto_Usuario.cs~RF246c6ba2.TMP" />
+    <None Remove="Models\dto_Usuario.cs~RF24707861.TMP" />
     <None Remove="Views\CUPersonal.cs~RF1f4c0322.TMP" />
     <None Remove="Views\CUPersonal.cs~RF1f4dadc5.TMP" />
     <None Remove="Views\Usuarios\FrmUsuario.cs~RF1aa653a0.TMP" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AForge" Version="2.2.5" />
+    <PackageReference Include="AForge.Video" Version="2.2.5" />
+    <PackageReference Include="AForge.Video.DirectShow" Version="2.2.5" />
     <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
   </ItemGroup>
 

@@ -29,152 +29,181 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CU_Usuarios));
-            this.panelTop = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.btnBuscarUsuario = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtBuscarUsuario = new System.Windows.Forms.TextBox();
-            this.panelBottom = new System.Windows.Forms.Panel();
-            this.btnNuevoUsuario = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panelTop.SuspendLayout();
-            this.panelBottom.SuspendLayout();
-            this.SuspendLayout();
+            panelTop = new Panel();
+            lblUsersCount = new Label();
+            panel1 = new Panel();
+            btnBuscarUsuario = new Button();
+            label1 = new Label();
+            txtBuscarUsuario = new TextBox();
+            panelBottom = new Panel();
+            btnDelete = new Button();
+            btnEdit = new Button();
+            btnNuevoUsuario = new Button();
+            lstUsers = new ListBox();
+            panelTop.SuspendLayout();
+            panelBottom.SuspendLayout();
+            SuspendLayout();
             // 
             // panelTop
             // 
-            this.panelTop.BackColor = System.Drawing.Color.White;
-            this.panelTop.Controls.Add(this.panel1);
-            this.panelTop.Controls.Add(this.btnBuscarUsuario);
-            this.panelTop.Controls.Add(this.label1);
-            this.panelTop.Controls.Add(this.txtBuscarUsuario);
-            this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTop.Location = new System.Drawing.Point(0, 0);
-            this.panelTop.Name = "panelTop";
-            this.panelTop.Size = new System.Drawing.Size(547, 80);
-            this.panelTop.TabIndex = 0;
+            panelTop.BackColor = Color.White;
+            panelTop.Controls.Add(lblUsersCount);
+            panelTop.Controls.Add(panel1);
+            panelTop.Controls.Add(btnBuscarUsuario);
+            panelTop.Controls.Add(label1);
+            panelTop.Controls.Add(txtBuscarUsuario);
+            panelTop.Dock = DockStyle.Top;
+            panelTop.Location = new Point(0, 0);
+            panelTop.Name = "panelTop";
+            panelTop.Size = new Size(547, 80);
+            panelTop.TabIndex = 0;
+            // 
+            // lblUsersCount
+            // 
+            lblUsersCount.AutoSize = true;
+            lblUsersCount.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lblUsersCount.ForeColor = Color.FromArgb(0, 0, 39);
+            lblUsersCount.Location = new Point(437, 50);
+            lblUsersCount.Name = "lblUsersCount";
+            lblUsersCount.Size = new Size(112, 21);
+            lblUsersCount.TabIndex = 5;
+            lblUsersCount.Text = "lblUsersCount";
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(152)))));
-            this.panel1.Location = new System.Drawing.Point(29, 61);
-            this.panel1.MaximumSize = new System.Drawing.Size(50, 50);
-            this.panel1.MinimumSize = new System.Drawing.Size(256, 1);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(256, 10);
-            this.panel1.TabIndex = 3;
+            panel1.BackColor = Color.FromArgb(0, 0, 152);
+            panel1.Location = new Point(29, 61);
+            panel1.MaximumSize = new Size(50, 50);
+            panel1.MinimumSize = new Size(256, 1);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(256, 10);
+            panel1.TabIndex = 3;
             // 
             // btnBuscarUsuario
             // 
-            this.btnBuscarUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(152)))));
-            this.btnBuscarUsuario.FlatAppearance.BorderSize = 0;
-            this.btnBuscarUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBuscarUsuario.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnBuscarUsuario.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnBuscarUsuario.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscarUsuario.Image")));
-            this.btnBuscarUsuario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBuscarUsuario.Location = new System.Drawing.Point(345, 31);
-            this.btnBuscarUsuario.Name = "btnBuscarUsuario";
-            this.btnBuscarUsuario.Size = new System.Drawing.Size(103, 40);
-            this.btnBuscarUsuario.TabIndex = 2;
-            this.btnBuscarUsuario.Text = "Buscar";
-            this.btnBuscarUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnBuscarUsuario.UseVisualStyleBackColor = false;
+            btnBuscarUsuario.BackColor = Color.FromArgb(0, 0, 152);
+            btnBuscarUsuario.FlatAppearance.BorderSize = 0;
+            btnBuscarUsuario.FlatStyle = FlatStyle.Flat;
+            btnBuscarUsuario.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnBuscarUsuario.ForeColor = SystemColors.ControlLightLight;
+            btnBuscarUsuario.Image = (Image)resources.GetObject("btnBuscarUsuario.Image");
+            btnBuscarUsuario.ImageAlign = ContentAlignment.MiddleLeft;
+            btnBuscarUsuario.Location = new Point(302, 31);
+            btnBuscarUsuario.Name = "btnBuscarUsuario";
+            btnBuscarUsuario.Size = new Size(103, 40);
+            btnBuscarUsuario.TabIndex = 2;
+            btnBuscarUsuario.Text = "Buscar";
+            btnBuscarUsuario.TextAlign = ContentAlignment.MiddleRight;
+            btnBuscarUsuario.UseVisualStyleBackColor = false;
+            btnBuscarUsuario.Click += btnBuscarUsuario_Click;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(39)))));
-            this.label1.Location = new System.Drawing.Point(29, 8);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(132, 21);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Buscar Usuarios: ";
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = Color.FromArgb(0, 0, 39);
+            label1.Location = new Point(29, 8);
+            label1.Name = "label1";
+            label1.Size = new Size(132, 21);
+            label1.TabIndex = 1;
+            label1.Text = "Buscar Usuarios: ";
             // 
             // txtBuscarUsuario
             // 
-            this.txtBuscarUsuario.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.txtBuscarUsuario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtBuscarUsuario.Location = new System.Drawing.Point(29, 32);
-            this.txtBuscarUsuario.Name = "txtBuscarUsuario";
-            this.txtBuscarUsuario.Size = new System.Drawing.Size(256, 29);
-            this.txtBuscarUsuario.TabIndex = 0;
+            txtBuscarUsuario.BackColor = Color.WhiteSmoke;
+            txtBuscarUsuario.BorderStyle = BorderStyle.FixedSingle;
+            txtBuscarUsuario.Location = new Point(29, 32);
+            txtBuscarUsuario.Name = "txtBuscarUsuario";
+            txtBuscarUsuario.Size = new Size(256, 29);
+            txtBuscarUsuario.TabIndex = 0;
+            txtBuscarUsuario.TextChanged += txtBuscarUsuario_TextChanged;
             // 
             // panelBottom
             // 
-            this.panelBottom.BackColor = System.Drawing.Color.White;
-            this.panelBottom.Controls.Add(this.label2);
-            this.panelBottom.Controls.Add(this.btnNuevoUsuario);
-            this.panelBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelBottom.Location = new System.Drawing.Point(0, 433);
-            this.panelBottom.Name = "panelBottom";
-            this.panelBottom.Size = new System.Drawing.Size(547, 86);
-            this.panelBottom.TabIndex = 1;
+            panelBottom.BackColor = Color.White;
+            panelBottom.Controls.Add(btnDelete);
+            panelBottom.Controls.Add(btnEdit);
+            panelBottom.Controls.Add(btnNuevoUsuario);
+            panelBottom.Dock = DockStyle.Bottom;
+            panelBottom.Location = new Point(0, 433);
+            panelBottom.Name = "panelBottom";
+            panelBottom.Size = new Size(547, 86);
+            panelBottom.TabIndex = 1;
+            // 
+            // btnDelete
+            // 
+            btnDelete.BackColor = Color.FromArgb(227, 38, 54);
+            btnDelete.FlatStyle = FlatStyle.Flat;
+            btnDelete.Font = new Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            btnDelete.ForeColor = SystemColors.ControlLightLight;
+            btnDelete.ImageAlign = ContentAlignment.MiddleLeft;
+            btnDelete.Location = new Point(14, 14);
+            btnDelete.Name = "btnDelete";
+            btnDelete.Size = new Size(133, 58);
+            btnDelete.TabIndex = 6;
+            btnDelete.Text = "Eliminar";
+            btnDelete.UseVisualStyleBackColor = false;
+            btnDelete.Click += btnDelete_Click;
+            // 
+            // btnEdit
+            // 
+            btnEdit.BackColor = Color.FromArgb(1, 154, 162);
+            btnEdit.FlatStyle = FlatStyle.Flat;
+            btnEdit.Font = new Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            btnEdit.ForeColor = SystemColors.ControlLightLight;
+            btnEdit.Location = new Point(203, 14);
+            btnEdit.Name = "btnEdit";
+            btnEdit.Size = new Size(124, 58);
+            btnEdit.TabIndex = 5;
+            btnEdit.Text = "Editar";
+            btnEdit.UseVisualStyleBackColor = false;
+            btnEdit.Click += btnEdit_Click;
             // 
             // btnNuevoUsuario
             // 
-            this.btnNuevoUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(154)))), ((int)(((byte)(162)))));
-            this.btnNuevoUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNuevoUsuario.Font = new System.Drawing.Font("Segoe UI Semibold", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnNuevoUsuario.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnNuevoUsuario.Image = ((System.Drawing.Image)(resources.GetObject("btnNuevoUsuario.Image")));
-            this.btnNuevoUsuario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNuevoUsuario.Location = new System.Drawing.Point(139, 16);
-            this.btnNuevoUsuario.Name = "btnNuevoUsuario";
-            this.btnNuevoUsuario.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
-            this.btnNuevoUsuario.Size = new System.Drawing.Size(276, 58);
-            this.btnNuevoUsuario.TabIndex = 4;
-            this.btnNuevoUsuario.Text = "Añadir Usuario";
-            this.btnNuevoUsuario.UseVisualStyleBackColor = false;
-            this.btnNuevoUsuario.Click += new System.EventHandler(this.btnNuevoUsuario_Click);
+            btnNuevoUsuario.BackColor = Color.Blue;
+            btnNuevoUsuario.FlatStyle = FlatStyle.Flat;
+            btnNuevoUsuario.Font = new Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            btnNuevoUsuario.ForeColor = SystemColors.ControlLightLight;
+            btnNuevoUsuario.Image = (Image)resources.GetObject("btnNuevoUsuario.Image");
+            btnNuevoUsuario.ImageAlign = ContentAlignment.MiddleLeft;
+            btnNuevoUsuario.Location = new Point(376, 14);
+            btnNuevoUsuario.Name = "btnNuevoUsuario";
+            btnNuevoUsuario.Size = new Size(148, 58);
+            btnNuevoUsuario.TabIndex = 4;
+            btnNuevoUsuario.Text = "Añadir";
+            btnNuevoUsuario.TextAlign = ContentAlignment.MiddleRight;
+            btnNuevoUsuario.UseVisualStyleBackColor = false;
+            btnNuevoUsuario.Click += btnNuevoUsuario_Click;
             // 
-            // listBox1
+            // lstUsers
             // 
-            this.listBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.listBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(39)))));
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 21;
-            this.listBox1.Items.AddRange(new object[] {
-            "Usuario 1",
-            "Usuario 2 ",
-            "Usuario 3"});
-            this.listBox1.Location = new System.Drawing.Point(0, 80);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(547, 353);
-            this.listBox1.TabIndex = 2;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(39)))));
-            this.label2.Location = new System.Drawing.Point(3, 16);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 21);
-            this.label2.TabIndex = 5;
-            this.label2.Text = " 3 usuarios";
+            lstUsers.Dock = DockStyle.Fill;
+            lstUsers.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lstUsers.ForeColor = Color.FromArgb(0, 0, 39);
+            lstUsers.FormattingEnabled = true;
+            lstUsers.ItemHeight = 21;
+            lstUsers.Location = new Point(0, 80);
+            lstUsers.Name = "lstUsers";
+            lstUsers.Size = new Size(547, 353);
+            lstUsers.TabIndex = 2;
             // 
             // CU_Usuarios
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.panelBottom);
-            this.Controls.Add(this.panelTop);
-            this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "CU_Usuarios";
-            this.Size = new System.Drawing.Size(547, 519);
-            this.Load += new System.EventHandler(this.CU_Usuarios_Load);
-            this.panelTop.ResumeLayout(false);
-            this.panelTop.PerformLayout();
-            this.panelBottom.ResumeLayout(false);
-            this.panelBottom.PerformLayout();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(9F, 21F);
+            AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(lstUsers);
+            Controls.Add(panelBottom);
+            Controls.Add(panelTop);
+            Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            Margin = new Padding(4);
+            Name = "CU_Usuarios";
+            Size = new Size(547, 519);
+            Load += CU_Usuarios_Load;
+            panelTop.ResumeLayout(false);
+            panelTop.PerformLayout();
+            panelBottom.ResumeLayout(false);
+            ResumeLayout(false);
         }
 
         #endregion
@@ -186,7 +215,9 @@
         private TextBox txtBuscarUsuario;
         private Panel panel1;
         private Button btnNuevoUsuario;
-        private ListBox listBox1;
-        private Label label2;
+        private ListBox lstUsers;
+        private Label lblUsersCount;
+        private Button btnDelete;
+        private Button btnEdit;
     }
 }

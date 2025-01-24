@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\PROGRAMACION ORIENTADA A OBJETOS II\\Visual Studio\\01_Primera_Vez\\01_Primera_Vez.csproj": {}
+    "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\01_Primera_Vez.csproj": {}
   },
   "projects": {
-    "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\PROGRAMACION ORIENTADA A OBJETOS II\\Visual Studio\\01_Primera_Vez\\01_Primera_Vez.csproj": {
+    "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\01_Primera_Vez.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\PROGRAMACION ORIENTADA A OBJETOS II\\Visual Studio\\01_Primera_Vez\\01_Primera_Vez.csproj",
+        "projectUniqueName": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\01_Primera_Vez.csproj",
         "projectName": "01_Primera_Vez",
-        "projectPath": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\PROGRAMACION ORIENTADA A OBJETOS II\\Visual Studio\\01_Primera_Vez\\01_Primera_Vez.csproj",
+        "projectPath": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\01_Primera_Vez.csproj",
         "packagesPath": "C:\\Users\\Ricardo Gonzalez\\.nuget\\packages\\",
-        "outputPath": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\PROGRAMACION ORIENTADA A OBJETOS II\\Visual Studio\\01_Primera_Vez\\obj\\",
+        "outputPath": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -38,12 +38,30 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "AForge": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "AForge.Video": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "AForge.Video.DirectShow": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.9.0, )"
@@ -68,7 +86,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

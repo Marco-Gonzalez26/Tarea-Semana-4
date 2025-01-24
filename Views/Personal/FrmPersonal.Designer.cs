@@ -28,199 +28,202 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblFrmPersonal = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.cmbPais = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnGuardar = new System.Windows.Forms.Button();
-            this.btnCancelar = new System.Windows.Forms.Button();
-            this.txtNombresApellidos = new System.Windows.Forms.TextBox();
-            this.txtCargo = new System.Windows.Forms.TextBox();
-            this.txtSueldo = new System.Windows.Forms.TextBox();
-            this.txtCedula = new System.Windows.Forms.TextBox();
-            this.panel1.SuspendLayout();
-            this.SuspendLayout();
+            lblFrmPersonal = new Label();
+            panel1 = new Panel();
+            cmbPais = new ComboBox();
+            label5 = new Label();
+            label4 = new Label();
+            label3 = new Label();
+            label2 = new Label();
+            label1 = new Label();
+            btnGuardar = new Button();
+            btnCancelar = new Button();
+            txtNombresApellidos = new TextBox();
+            txtCargo = new TextBox();
+            txtSueldo = new TextBox();
+            txtCedula = new TextBox();
+            panel1.SuspendLayout();
+            SuspendLayout();
             // 
             // lblFrmPersonal
             // 
-            this.lblFrmPersonal.AutoSize = true;
-            this.lblFrmPersonal.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblFrmPersonal.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblFrmPersonal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(42)))));
-            this.lblFrmPersonal.Location = new System.Drawing.Point(0, 0);
-            this.lblFrmPersonal.Name = "lblFrmPersonal";
-            this.lblFrmPersonal.Size = new System.Drawing.Size(66, 30);
-            this.lblFrmPersonal.TabIndex = 0;
-            this.lblFrmPersonal.Text = "label1";
-            this.lblFrmPersonal.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            lblFrmPersonal.AutoSize = true;
+            lblFrmPersonal.Dock = DockStyle.Top;
+            lblFrmPersonal.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            lblFrmPersonal.ForeColor = Color.FromArgb(0, 0, 42);
+            lblFrmPersonal.Location = new Point(0, 0);
+            lblFrmPersonal.Name = "lblFrmPersonal";
+            lblFrmPersonal.Size = new Size(66, 30);
+            lblFrmPersonal.TabIndex = 0;
+            lblFrmPersonal.Text = "label1";
+            lblFrmPersonal.TextAlign = ContentAlignment.TopCenter;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.cmbPais);
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.btnGuardar);
-            this.panel1.Controls.Add(this.btnCancelar);
-            this.panel1.Controls.Add(this.txtNombresApellidos);
-            this.panel1.Controls.Add(this.txtCargo);
-            this.panel1.Controls.Add(this.txtSueldo);
-            this.panel1.Controls.Add(this.txtCedula);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 30);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(515, 398);
-            this.panel1.TabIndex = 1;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            panel1.BackColor = Color.White;
+            panel1.Controls.Add(cmbPais);
+            panel1.Controls.Add(label5);
+            panel1.Controls.Add(label4);
+            panel1.Controls.Add(label3);
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(label1);
+            panel1.Controls.Add(btnGuardar);
+            panel1.Controls.Add(btnCancelar);
+            panel1.Controls.Add(txtNombresApellidos);
+            panel1.Controls.Add(txtCargo);
+            panel1.Controls.Add(txtSueldo);
+            panel1.Controls.Add(txtCedula);
+            panel1.Dock = DockStyle.Fill;
+            panel1.Location = new Point(0, 30);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(515, 398);
+            panel1.TabIndex = 1;
+            panel1.Paint += panel1_Paint;
             // 
             // cmbPais
             // 
-            this.cmbPais.FormattingEnabled = true;
-            this.cmbPais.Location = new System.Drawing.Point(193, 183);
-            this.cmbPais.Name = "cmbPais";
-            this.cmbPais.Size = new System.Drawing.Size(260, 29);
-            this.cmbPais.TabIndex = 5;
-            this.cmbPais.Text = "Seleccione un país";
+            cmbPais.FormattingEnabled = true;
+            cmbPais.Location = new Point(193, 183);
+            cmbPais.Name = "cmbPais";
+            cmbPais.Size = new Size(260, 29);
+            cmbPais.TabIndex = 5;
+            cmbPais.Text = "Seleccione un país";
+            cmbPais.SelectedIndexChanged += cmbPais_SelectedIndexChanged;
+            cmbPais.KeyDown += cmbPais_KeyDown;
+            cmbPais.KeyPress += cmbPais_KeyPress;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(42)))));
-            this.label5.Location = new System.Drawing.Point(125, 186);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(46, 21);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "País: ";
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label5.ForeColor = Color.FromArgb(0, 0, 42);
+            label5.Location = new Point(125, 186);
+            label5.Name = "label5";
+            label5.Size = new Size(46, 21);
+            label5.TabIndex = 10;
+            label5.Text = "País: ";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(42)))));
-            this.label4.Location = new System.Drawing.Point(110, 109);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(62, 21);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "Cargo: ";
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.ForeColor = Color.FromArgb(0, 0, 42);
+            label4.Location = new Point(110, 109);
+            label4.Name = "label4";
+            label4.Size = new Size(62, 21);
+            label4.TabIndex = 9;
+            label4.Text = "Cargo: ";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(42)))));
-            this.label3.Location = new System.Drawing.Point(50, 147);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(132, 21);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Sueldo por hora:";
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.ForeColor = Color.FromArgb(0, 0, 42);
+            label3.Location = new Point(50, 147);
+            label3.Name = "label3";
+            label3.Size = new Size(132, 21);
+            label3.TabIndex = 8;
+            label3.Text = "Sueldo por hora:";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(42)))));
-            this.label2.Location = new System.Drawing.Point(110, 38);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 21);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Cédula: ";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = Color.FromArgb(0, 0, 42);
+            label2.Location = new Point(110, 38);
+            label2.Name = "label2";
+            label2.Size = new Size(68, 21);
+            label2.TabIndex = 7;
+            label2.Text = "Cédula: ";
+            label2.Click += label2_Click;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(42)))));
-            this.label1.Location = new System.Drawing.Point(17, 73);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(167, 21);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Nombres y Apellidos:";
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = Color.FromArgb(0, 0, 42);
+            label1.Location = new Point(17, 73);
+            label1.Name = "label1";
+            label1.Size = new Size(167, 21);
+            label1.TabIndex = 6;
+            label1.Text = "Nombres y Apellidos:";
             // 
             // btnGuardar
             // 
-            this.btnGuardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(142)))));
-            this.btnGuardar.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnGuardar.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnGuardar.ForeColor = System.Drawing.Color.White;
-            this.btnGuardar.Location = new System.Drawing.Point(0, 276);
-            this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(515, 61);
-            this.btnGuardar.TabIndex = 6;
-            this.btnGuardar.Text = "Guardar";
-            this.btnGuardar.UseVisualStyleBackColor = false;
-            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
+            btnGuardar.BackColor = Color.FromArgb(0, 0, 142);
+            btnGuardar.Dock = DockStyle.Bottom;
+            btnGuardar.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnGuardar.ForeColor = Color.White;
+            btnGuardar.Location = new Point(0, 276);
+            btnGuardar.Name = "btnGuardar";
+            btnGuardar.Size = new Size(515, 61);
+            btnGuardar.TabIndex = 6;
+            btnGuardar.Text = "Guardar";
+            btnGuardar.UseVisualStyleBackColor = false;
+            btnGuardar.Click += btnGuardar_Click;
             // 
             // btnCancelar
             // 
-            this.btnCancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(38)))), ((int)(((byte)(54)))));
-            this.btnCancelar.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnCancelar.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnCancelar.ForeColor = System.Drawing.Color.White;
-            this.btnCancelar.Location = new System.Drawing.Point(0, 337);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(515, 61);
-            this.btnCancelar.TabIndex = 7;
-            this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = false;
+            btnCancelar.BackColor = Color.FromArgb(227, 38, 54);
+            btnCancelar.Dock = DockStyle.Bottom;
+            btnCancelar.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnCancelar.ForeColor = Color.White;
+            btnCancelar.Location = new Point(0, 337);
+            btnCancelar.Name = "btnCancelar";
+            btnCancelar.Size = new Size(515, 61);
+            btnCancelar.TabIndex = 7;
+            btnCancelar.Text = "Cancelar";
+            btnCancelar.UseVisualStyleBackColor = false;
             // 
             // txtNombresApellidos
             // 
-            this.txtNombresApellidos.Location = new System.Drawing.Point(193, 73);
-            this.txtNombresApellidos.Name = "txtNombresApellidos";
-            this.txtNombresApellidos.Size = new System.Drawing.Size(260, 29);
-            this.txtNombresApellidos.TabIndex = 2;
+            txtNombresApellidos.Location = new Point(193, 73);
+            txtNombresApellidos.Name = "txtNombresApellidos";
+            txtNombresApellidos.Size = new Size(260, 29);
+            txtNombresApellidos.TabIndex = 2;
             // 
             // txtCargo
             // 
-            this.txtCargo.Location = new System.Drawing.Point(193, 109);
-            this.txtCargo.Name = "txtCargo";
-            this.txtCargo.Size = new System.Drawing.Size(260, 29);
-            this.txtCargo.TabIndex = 3;
+            txtCargo.Location = new Point(193, 109);
+            txtCargo.Name = "txtCargo";
+            txtCargo.Size = new Size(260, 29);
+            txtCargo.TabIndex = 3;
             // 
             // txtSueldo
             // 
-            this.txtSueldo.Location = new System.Drawing.Point(193, 144);
-            this.txtSueldo.Name = "txtSueldo";
-            this.txtSueldo.Size = new System.Drawing.Size(260, 29);
-            this.txtSueldo.TabIndex = 4;
+            txtSueldo.Location = new Point(193, 144);
+            txtSueldo.Name = "txtSueldo";
+            txtSueldo.Size = new Size(260, 29);
+            txtSueldo.TabIndex = 4;
             // 
             // txtCedula
             // 
-            this.txtCedula.Location = new System.Drawing.Point(193, 38);
-            this.txtCedula.Name = "txtCedula";
-            this.txtCedula.Size = new System.Drawing.Size(260, 29);
-            this.txtCedula.TabIndex = 0;
-            this.txtCedula.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            this.txtCedula.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCedula_KeyPress);
+            txtCedula.Location = new Point(193, 38);
+            txtCedula.Name = "txtCedula";
+            txtCedula.Size = new Size(260, 29);
+            txtCedula.TabIndex = 0;
+            txtCedula.TextChanged += textBox1_TextChanged;
+            txtCedula.KeyPress += txtCedula_KeyPress;
+            txtCedula.Leave += txtCedula_Leave;
             // 
             // FrmPersonal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(515, 428);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.lblFrmPersonal);
-            this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "FrmPersonal";
-            this.Text = "FrmPersonal";
-            this.Load += new System.EventHandler(this.FrmPersonal_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(9F, 21F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
+            ClientSize = new Size(515, 428);
+            Controls.Add(panel1);
+            Controls.Add(lblFrmPersonal);
+            Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            FormBorderStyle = FormBorderStyle.FixedToolWindow;
+            Margin = new Padding(4);
+            Name = "FrmPersonal";
+            Text = "FrmPersonal";
+            Load += FrmPersonal_Load;
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using _01_Primera_Vez.Views.Usuarios;
+using _01_Primera_Vez.Views.Asistencias;
+
 namespace _01_Primera_Vez.Views
 {
     public partial class MenuPrincipal : Form
@@ -52,7 +54,9 @@ namespace _01_Primera_Vez.Views
 
         private void btnAsistencia_Click(object sender, EventArgs e)
         {
-
+           
+           FrmAsistencias frmAsistencias = new FrmAsistencias();
+           frmAsistencias.ShowDialog();
         }
 
         private void btnRespaldo_Click(object sender, EventArgs e)

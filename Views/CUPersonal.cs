@@ -21,7 +21,7 @@ namespace _01_Primera_Vez.Views
 
         private void btnNuevoPersonal_Click(object sender, EventArgs e)
         {
-            FrmPersonal frmPersonal = new FrmPersonal("n");
+            FrmPersonal frmPersonal = new FrmPersonal("n", 0);
 
             frmPersonal.Show();
         }
@@ -31,20 +31,38 @@ namespace _01_Primera_Vez.Views
             /* Llamar al cls personal y 
              * cargar el procedimiento donde se muestren todos los registros
             */
-            fillGridView();
+            fillGridView(1);
 
         }
-        public void fillGridView() {
+
+        /*
+         int number = Parametro para identificar el tipo de carga de la grilla
+        number = 1; llamar a getAll()
+        number = 2; llamar a search()
+         */
+        public void fillGridView(int number)
+        {
             var logicaPersonal = new cls_Personal();
 
             dgvUsuarios.DataSource = "";
-            dgvUsuarios.DataSource = logicaPersonal.getAll();
             var autoIncrement = new DataGridViewTextBoxColumn
             {
                 HeaderText = "N.-",
                 ReadOnly = true
             };
             dgvUsuarios.Columns.Add(autoIncrement);
+
+            if (number == 1)
+            {
+
+                dgvUsuarios.DataSource = logicaPersonal.getAll();
+            }
+            else if (number == 2)
+            {
+                dgvUsuarios.DataSource = logicaPersonal.search(txtBuscarUsuario.Text.Trim());
+
+            }
+
 
             var btnEditar = new DataGridViewButtonColumn
             {
@@ -67,7 +85,6 @@ namespace _01_Primera_Vez.Views
             dgvUsuarios.Columns["detalle"].HeaderText = "País";
             dgvUsuarios.Columns["idPersonal"].Visible = false;
             dgvUsuarios.Columns["idPais"].Visible = false;
-
             dgvUsuarios.Columns.Add(btnEditar);
             dgvUsuarios.Columns.Add(btnEliminar);
 
@@ -87,22 +104,46 @@ namespace _01_Primera_Vez.Views
             }
         }
 
-        public void EditarPersonal(int id) {
-            MessageBox.Show("Editar: Id " + id);
+        public void EditarPersonal(int id)
+        {
+            
+            FrmPersonal frmPersonal = new FrmPersonal("e", id);
+            frmPersonal.ShowDialog();
         }
-        public void EliminarPersonal(int id) { 
-            MessageBox.Show("Eliminar: Id " + id);
+        public void EliminarPersonal(int id)
+        {
+            DialogResult dialogResult = MessageBox.Show("¿Esta seguro?", "Eliminar Personal", MessageBoxButtons.YesNo);
+
+            if (dialogResult == DialogResult.Yes)
+            {
+                cls_Personal logicaPersonal = new cls_Personal();
+
+                if (logicaPersonal.deleteOne(id))
+                {
+                    MessageBox.Show("Registro se ha eliminado correctamente");
+                    this.fillGridView(1);
+                }
+                else
+                {
+                    MessageBox.Show("Ha ocurrido un error al eliminar");
+                }
+            }
+            else
+            {
+                MessageBox.Show("El usuario canceló la eliminación");
+            }
         }
 
         private void dgvUsuarios_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex < 0 || e.ColumnIndex < 0) return;
-            if (dgvUsuarios.Columns[e.ColumnIndex] is DataGridViewButtonColumn) {
+            if (dgvUsuarios.Columns[e.ColumnIndex] is DataGridViewButtonColumn)
+            {
                 var filaSeleccionada = dgvUsuarios.Rows[e.RowIndex];
-                var idPersonal = filaSeleccionada.Cells["isPersonal"].Value;
+                var idPersonal = filaSeleccionada.Cells["idPersonal"].Value;
 
 
-                if (dgvUsuarios.Columns[e.ColumnIndex].HeaderText == "Editar") 
+                if (dgvUsuarios.Columns[e.ColumnIndex].HeaderText == "Editar")
                 {
                     EditarPersonal((int)idPersonal);
                 }
@@ -114,6 +155,16 @@ namespace _01_Primera_Vez.Views
 
             }
         }
-            
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            this.fillGridView(2);
+        }
+
+        private void txtBuscarUsuario_TextChanged(object sender, EventArgs e)
+        {
+            this.fillGridView(2);
+
+        }
     }
 }

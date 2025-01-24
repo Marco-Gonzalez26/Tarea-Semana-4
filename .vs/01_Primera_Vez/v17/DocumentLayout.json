@@ -1,0 +1,527 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|d:\\always-dev\\marco-programacion\\universidad\\cuarto semestre\\pooii\\visual studio\\tareas-parcial-2\\01_primera_vez - semana 4\\views\\usuarios\\frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:views\\usuarios\\frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\views\\usuarios\\frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:views\\usuarios\\frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|d:\\always-dev\\marco-programacion\\universidad\\cuarto semestre\\pooii\\visual studio\\tareas-parcial-2\\01_primera_vez - semana 4\\controllers\\cls_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:controllers\\cls_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|d:\\always-dev\\marco-programacion\\universidad\\cuarto semestre\\pooii\\visual studio\\tareas-parcial-2\\01_primera_vez - semana 4\\views\\usuarios\\cu_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:views\\usuarios\\cu_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\views\\usuarios\\cu_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:views\\usuarios\\cu_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\views\\personal\\frmpersonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:views\\personal\\frmpersonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|d:\\always-dev\\marco-programacion\\universidad\\cuarto semestre\\pooii\\visual studio\\tareas-parcial-2\\01_primera_vez - semana 4\\models\\dto_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:models\\dto_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\views\\asistencias\\frmasistencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:views\\asistencias\\frmasistencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|d:\\always-dev\\marco-programacion\\universidad\\cuarto semestre\\pooii\\visual studio\\tareas-parcial-2\\01_primera_vez - semana 4\\controllers\\cls_personal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:controllers\\cls_personal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|d:\\always-dev\\marco-programacion\\universidad\\cuarto semestre\\pooii\\visual studio\\tareas-parcial-2\\01_primera_vez - semana 4\\views\\personal\\frmpersonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:views\\personal\\frmpersonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|d:\\always-dev\\marco-programacion\\universidad\\cuarto semestre\\pooii\\visual studio\\tareas-parcial-2\\01_primera_vez - semana 4\\views\\asistencias\\frmasistencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:views\\asistencias\\frmasistencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|d:\\always-dev\\marco-programacion\\universidad\\cuarto semestre\\pooii\\visual studio\\tareas-parcial-2\\01_primera_vez - semana 4\\views\\cupersonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:views\\cupersonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|d:\\always-dev\\marco-programacion\\universidad\\cuarto semestre\\pooii\\visual studio\\tareas-parcial-2\\01_primera_vez - semana 4\\views\\cupersonal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:views\\cupersonal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\views\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:views\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\views\\cupersonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:views\\cupersonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|d:\\always-dev\\marco-programacion\\universidad\\cuarto semestre\\pooii\\visual studio\\tareas-parcial-2\\01_primera_vez - semana 4\\controllers\\cls_pais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:controllers\\cls_pais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|d:\\always-dev\\marco-programacion\\universidad\\cuarto semestre\\pooii\\visual studio\\tareas-parcial-2\\01_primera_vez - semana 4\\models\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:models\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|d:\\always-dev\\marco-programacion\\universidad\\cuarto semestre\\pooii\\visual studio\\tareas-parcial-2\\01_primera_vez - semana 4\\views\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:views\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|d:\\always-dev\\marco-programacion\\universidad\\cuarto semestre\\pooii\\visual studio\\tareas-parcial-2\\01_primera_vez - semana 4\\views\\asistencias\\frmasistencias.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:views\\asistencias\\frmasistencias.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|d:\\always-dev\\marco-programacion\\universidad\\cuarto semestre\\pooii\\visual studio\\tareas-parcial-2\\01_primera_vez - semana 4\\controllers\\cls_asistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:controllers\\cls_asistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|d:\\always-dev\\marco-programacion\\universidad\\cuarto semestre\\pooii\\visual studio\\tareas-parcial-2\\01_primera_vez - semana 4\\models\\dto_asistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:models\\dto_asistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|d:\\always-dev\\marco-programacion\\universidad\\cuarto semestre\\pooii\\visual studio\\tareas-parcial-2\\01_primera_vez - semana 4\\models\\dto_pais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:models\\dto_pais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|d:\\always-dev\\marco-programacion\\universidad\\cuarto semestre\\pooii\\visual studio\\tareas-parcial-2\\01_primera_vez - semana 4\\views\\menuprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:views\\menuprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|d:\\always-dev\\marco-programacion\\universidad\\cuarto semestre\\pooii\\visual studio\\tareas-parcial-2\\01_primera_vez - semana 4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|d:\\always-dev\\marco-programacion\\universidad\\cuarto semestre\\pooii\\visual studio\\tareas-parcial-2\\01_primera_vez - semana 4\\models\\dto_personal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:models\\dto_personal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|d:\\always-dev\\marco-programacion\\universidad\\cuarto semestre\\pooii\\visual studio\\tareas-parcial-2\\01_primera_vez - semana 4\\views\\usuarios\\cu_usuarios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:views\\usuarios\\cu_usuarios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|d:\\always-dev\\marco-programacion\\universidad\\cuarto semestre\\pooii\\visual studio\\tareas-parcial-2\\01_primera_vez - semana 4\\views\\usuarios\\frmusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:views\\usuarios\\frmusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|d:\\always-dev\\marco-programacion\\universidad\\cuarto semestre\\pooii\\visual studio\\tareas-parcial-2\\01_primera_vez - semana 4\\views\\personal\\frmpersonal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:views\\personal\\frmpersonal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\views\\personal\\frmpersonal.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:views\\personal\\frmpersonal.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\views\\cupersonal.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{F273C96C-5AA6-4AF3-B540-7C2B633F8291}|01_Primera_Vez.csproj|solutionrelative:views\\cupersonal.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 251,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmUsuario.cs",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\Usuarios\\FrmUsuario.cs",
+              "RelativeDocumentMoniker": "Views\\Usuarios\\FrmUsuario.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\Usuarios\\FrmUsuario.cs",
+              "RelativeToolTip": "Views\\Usuarios\\FrmUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T02:58:06.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CU_Usuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\Usuarios\\CU_Usuarios.cs",
+              "RelativeDocumentMoniker": "Views\\Usuarios\\CU_Usuarios.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\PROGRAMACION ORIENTADA A OBJETOS II\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez\\Views\\Usuarios\\CU_Usuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\PROGRAMACION ORIENTADA A OBJETOS II\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez\\Views\\Usuarios\\CU_Usuarios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T04:42:51.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CU_Usuarios.cs",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\Usuarios\\CU_Usuarios.cs",
+              "RelativeDocumentMoniker": "Views\\Usuarios\\CU_Usuarios.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\Usuarios\\CU_Usuarios.cs",
+              "RelativeToolTip": "Views\\Usuarios\\CU_Usuarios.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAwF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T02:15:57.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "cls_Usuario.cs",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Controllers\\cls_Usuario.cs",
+              "RelativeDocumentMoniker": "Controllers\\cls_Usuario.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Controllers\\cls_Usuario.cs",
+              "RelativeToolTip": "Controllers\\cls_Usuario.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAowNcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T22:35:15.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmUsuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\Usuarios\\FrmUsuario.cs",
+              "RelativeDocumentMoniker": "Views\\Usuarios\\FrmUsuario.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\Usuarios\\FrmUsuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Views\\Usuarios\\FrmUsuario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T05:39:54.989Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmPersonal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\Personal\\FrmPersonal.cs",
+              "RelativeDocumentMoniker": "Views\\Personal\\FrmPersonal.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\PROGRAMACION ORIENTADA A OBJETOS II\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez\\Views\\Personal\\FrmPersonal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\PROGRAMACION ORIENTADA A OBJETOS II\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez\\Views\\Personal\\FrmPersonal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T00:20:09.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "dto_Usuario.cs",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Models\\dto_Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\dto_Usuario.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Models\\dto_Usuario.cs",
+              "RelativeToolTip": "Models\\dto_Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T21:56:02.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmAsistencias.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\Asistencias\\FrmAsistencias.cs",
+              "RelativeDocumentMoniker": "Views\\Asistencias\\FrmAsistencias.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\PROGRAMACION ORIENTADA A OBJETOS II\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez\\Views\\Asistencias\\FrmAsistencias.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\PROGRAMACION ORIENTADA A OBJETOS II\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez\\Views\\Asistencias\\FrmAsistencias.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T20:39:45.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "cls_Personal.cs",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Controllers\\cls_Personal.cs",
+              "RelativeDocumentMoniker": "Controllers\\cls_Personal.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Controllers\\cls_Personal.cs",
+              "RelativeToolTip": "Controllers\\cls_Personal.cs",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAuwNQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T23:35:55.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmAsistencias.cs",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\Asistencias\\FrmAsistencias.cs",
+              "RelativeDocumentMoniker": "Views\\Asistencias\\FrmAsistencias.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\Asistencias\\FrmAsistencias.cs",
+              "RelativeToolTip": "Views\\Asistencias\\FrmAsistencias.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAArwDEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T20:55:33.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CUPersonal.Designer.cs",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\CUPersonal.Designer.cs",
+              "RelativeDocumentMoniker": "Views\\CUPersonal.Designer.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\CUPersonal.Designer.cs",
+              "RelativeToolTip": "Views\\CUPersonal.Designer.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T00:03:29.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrmPersonal.cs",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\Personal\\FrmPersonal.cs",
+              "RelativeDocumentMoniker": "Views\\Personal\\FrmPersonal.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\Personal\\FrmPersonal.cs",
+              "RelativeToolTip": "Views\\Personal\\FrmPersonal.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T00:33:55.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CUPersonal.cs",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\CUPersonal.cs",
+              "RelativeDocumentMoniker": "Views\\CUPersonal.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\CUPersonal.cs",
+              "RelativeToolTip": "Views\\CUPersonal.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAuwI8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T01:02:38.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MenuPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\MenuPrincipal.cs",
+              "RelativeDocumentMoniker": "Views\\MenuPrincipal.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\PROGRAMACION ORIENTADA A OBJETOS II\\Visual Studio\\01_Primera_Vez\\Views\\MenuPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\PROGRAMACION ORIENTADA A OBJETOS II\\Visual Studio\\01_Primera_Vez\\Views\\MenuPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T00:58:43.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "cls_Pais.cs",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Controllers\\cls_Pais.cs",
+              "RelativeDocumentMoniker": "Controllers\\cls_Pais.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Controllers\\cls_Pais.cs",
+              "RelativeToolTip": "Controllers\\cls_Pais.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAB4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T00:20:03.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CUPersonal.cs [Design]",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\CUPersonal.cs",
+              "RelativeDocumentMoniker": "Views\\CUPersonal.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\PROGRAMACION ORIENTADA A OBJETOS II\\Visual Studio\\01_Primera_Vez\\Views\\CUPersonal.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\PROGRAMACION ORIENTADA A OBJETOS II\\Visual Studio\\01_Primera_Vez\\Views\\CUPersonal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T00:52:58.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Models\\Conexion.cs",
+              "RelativeDocumentMoniker": "Models\\Conexion.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Models\\Conexion.cs",
+              "RelativeToolTip": "Models\\Conexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T23:11:33.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FrmAsistencias.Designer.cs",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\Asistencias\\FrmAsistencias.Designer.cs",
+              "RelativeDocumentMoniker": "Views\\Asistencias\\FrmAsistencias.Designer.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\Asistencias\\FrmAsistencias.Designer.cs",
+              "RelativeToolTip": "Views\\Asistencias\\FrmAsistencias.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T21:41:49.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MenuPrincipal.cs",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\MenuPrincipal.cs",
+              "RelativeDocumentMoniker": "Views\\MenuPrincipal.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\MenuPrincipal.cs",
+              "RelativeToolTip": "Views\\MenuPrincipal.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwDoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T00:00:49.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "dto_asistencia.cs",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Models\\dto_asistencia.cs",
+              "RelativeDocumentMoniker": "Models\\dto_asistencia.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Models\\dto_asistencia.cs",
+              "RelativeToolTip": "Models\\dto_asistencia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T21:32:04.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "cls_Asistencia.cs",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Controllers\\cls_Asistencia.cs",
+              "RelativeDocumentMoniker": "Controllers\\cls_Asistencia.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Controllers\\cls_Asistencia.cs",
+              "RelativeToolTip": "Controllers\\cls_Asistencia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T21:36:43.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MenuPrincipal.Designer.cs",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\MenuPrincipal.Designer.cs",
+              "RelativeDocumentMoniker": "Views\\MenuPrincipal.Designer.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\MenuPrincipal.Designer.cs",
+              "RelativeToolTip": "Views\\MenuPrincipal.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T00:04:43.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "dto_Pais.cs",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Models\\dto_Pais.cs",
+              "RelativeDocumentMoniker": "Models\\dto_Pais.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Models\\dto_Pais.cs",
+              "RelativeToolTip": "Models\\dto_Pais.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T00:17:40.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T23:54:16.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "dto_Personal.cs",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Models\\dto_Personal.cs",
+              "RelativeDocumentMoniker": "Models\\dto_Personal.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Models\\dto_Personal.cs",
+              "RelativeToolTip": "Models\\dto_Personal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T23:28:47.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CU_Usuarios.Designer.cs",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\Usuarios\\CU_Usuarios.Designer.cs",
+              "RelativeDocumentMoniker": "Views\\Usuarios\\CU_Usuarios.Designer.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\Usuarios\\CU_Usuarios.Designer.cs",
+              "RelativeToolTip": "Views\\Usuarios\\CU_Usuarios.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T03:07:49.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FrmUsuario.Designer.cs",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\Usuarios\\FrmUsuario.Designer.cs",
+              "RelativeDocumentMoniker": "Views\\Usuarios\\FrmUsuario.Designer.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\Usuarios\\FrmUsuario.Designer.cs",
+              "RelativeToolTip": "Views\\Usuarios\\FrmUsuario.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T03:07:38.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FrmPersonal.Designer.cs",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\Personal\\FrmPersonal.Designer.cs",
+              "RelativeDocumentMoniker": "Views\\Personal\\FrmPersonal.Designer.cs",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\Personal\\FrmPersonal.Designer.cs",
+              "RelativeToolTip": "Views\\Personal\\FrmPersonal.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T01:09:26.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CUPersonal.resx",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\CUPersonal.resx",
+              "RelativeDocumentMoniker": "Views\\CUPersonal.resx",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\CUPersonal.resx",
+              "RelativeToolTip": "Views\\CUPersonal.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-12-06T01:10:05.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FrmPersonal.resx",
+              "DocumentMoniker": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\Personal\\FrmPersonal.resx",
+              "RelativeDocumentMoniker": "Views\\Personal\\FrmPersonal.resx",
+              "ToolTip": "D:\\always-dev\\Marco-Programacion\\Universidad\\CUARTO SEMESTRE\\POOII\\Visual Studio\\Tareas-Parcial-2\\01_Primera_Vez - Semana 4\\Views\\Personal\\FrmPersonal.resx",
+              "RelativeToolTip": "Views\\Personal\\FrmPersonal.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-12-06T01:10:07.72Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 42,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
